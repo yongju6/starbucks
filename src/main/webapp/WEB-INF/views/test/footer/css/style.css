@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*=================================================================
+  Footer section
+==================================================================*/
+.footer_wrap{
+  background-color: #2C2A29;
+}
+
+.top-footer {
+  background-color: #222222;
+  border-top: 1px solid #404040;
+  padding: 100px 0 80px;
+}
+
+.top-footer h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.top-footer p {
+  font-size: 13px;
+  line-height: 30px;
+  color: #bdbdbd;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-right: 20px;
+}
+
+.top-footer li a {
+  font-size: 13px;
+  line-height: 30px;
+  color: #bdbdbd;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: color .3s;
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+}
+
+.top-footer li a:hover {
+  color: #28ABE3;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #1b1b1b;
+  border-top: 1px solid #2c2c2c;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-bottom-button{
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 14px;
+  border: solid white 2px;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 4%;
+  border-radius: 6%;
+}
+
+.footer-bottom-agreements-box{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-short-one{
+  height: 40px;
+  
+}
+
+.footer-long-one{
+  width: 30px;
+}
+
+.footer-bottom-agreements-box a{
+  color: white;
+  font-size: 12px;
+  
+}
+
+.footer-bottom-ul{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+}
+
+.footer-bottom-ul-li{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  justify-content: center;
+  width: 24%;  
+}
+
+.footer-bottom h5 {
+  font-size: 12px;
+  line-height: 1;
+  color: #cacaca;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+
+
+.page-404 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-404 h1 {
+  font-size: 200px;
+}
+
+

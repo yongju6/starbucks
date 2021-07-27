@@ -322,15 +322,20 @@ h1, h2, h3, h4, h5, h6 {
   background: #3ac162;
 }
 
-.fototer-bottom-box{
+.footer-bottom-box{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  
 }
 
 .starbucks-info-box{
   display: flex;
   padding-bottom: 3%;
   
+}
+.starbucks-info{
+  margin: = 0% 2%;
 }
 
 #footer .social-links a {
@@ -346,6 +351,25 @@ h1, h2, h3, h4, h5, h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+
+.fotter-button-box{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.fotter-button-box button{
+  background-color: #777777;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 2%;
+  margin: 0% 1%;
+}
+
+.footer-end-box{
+  display: flex;
+  flex-direction: column;
 }
 
 #footer .social-links a:hover {

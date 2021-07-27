@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #848484;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  transition: all .3s ease-in 0s;
+}
+
+iframe {
+  border: 0;
+}
+
+/*=================================================================
+  Footer section
+==================================================================*/
+.top-footer {
+  background-color: #222222;
+  border-top: 1px solid #404040;
+  padding: 100px 0 80px;
+}
+
+.footer-menus{
+  display: flex;
+
+}
+
+.footer-menus ul{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20%;
+}
+
+.footer-menu-title a{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-menus li{
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: color .3s;
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  background-color: #1b1b1b;
+  border-top: 1px solid #2c2c2c;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-bottom-button{
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 14px;
+  border: solid white 2px;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 4%;
+  border-radius: 6%;
+}
+
+
+.footer-bottom ul{
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+  vertical-align: baseline;
+  margin-bottom: 20px;
+}
+
+.footer-bottom ul li{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  justify-content: center;
+  margin-left: 3px;  
+  margin-right: 3px;
+
+}
+
+.copyright-box{
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.page-404 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-404 h1 {
+  font-size: 200px;
+}
+
+
