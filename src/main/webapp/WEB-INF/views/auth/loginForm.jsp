@@ -1,6 +1,6 @@
   
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@include file="../layout/header.jsp"%>
+<%-- <%@include file="../layout/header.jsp"%> --%>
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -15,9 +15,6 @@
   <meta name="author" content="Themefisher.com">
 
   <title>LoginForm</title>
-
-
-  
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="./images/starbuckslogo.png" />
   

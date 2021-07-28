@@ -334,6 +334,7 @@ iframe {
 
 .body{
   background-image: url("../images/login_bg.jpg");
+  height: 800px;
 }
 
 .outer-login-box{
@@ -347,11 +348,9 @@ iframe {
 }
 
 .title h2 {
-  color: rgb(255, 255, 255);
+  color: rgb(54, 54, 54);
   margin-top: 10%;
 }
-
-
 
 .welcom-box{
   color: rgb(103, 185, 103);
@@ -385,15 +384,8 @@ iframe {
   padding-top: 20px;
 }
 
-
-
 .login-title{
   display: block;
-}
-
-.kakaologin-button{
-  display: flex;
-  justify-content: center;
 }
 
 .login-warn {
@@ -417,6 +409,11 @@ iframe {
   border: 0px;
   height: 330px;
   width: 550px;
+}
+
+.kakaologin-button{
+  display: flex;
+  justify-content: center;
 }
 
 .kakaologin-button img{
@@ -493,4 +490,130 @@ iframe {
 .userinfo-title{
   color: black;
   text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.name-text-box{
+  display: block;
+}
+
+.name-output-box{
+  display: flex;
+}
+
+.under-name-box{
+  display: flex;
+}
+
+.outer-info-box input{
+  width: 80%;
+  height: 40px;
+  border: solid rgb(194, 194, 194) 1px;
+  border-radius: 4px;
+}
+
+.user_gender{
+  display: flex;
+}
+
+
+.user_gender a {
+  color: #b0b0b0;
+  display: flex;
+  justify-content: center;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 50px;
+}
+
+.user_gender a.on {
+  background: #f4f4f2;
+  color: #222;
+}
+
+.outer-info-box{
+  border: solid gray 1px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.info-box{
+  margin: 30px 30px 30px 30px;
+}
+
+.container{
+  width: 38%;
+}
+
+/* --------nickname ----------*/
+
+.under-img-text-box{
+  background-color: #edebe7;
+  color: #666;
+  text-align: center;
+  width: 610px;
+  height: 60px;
+  padding-top: 8px;
+}
+
+.nickname-img-box{
+  margin-top: 30px;
+}
+
+.nickname-title-box{
+  padding: 20px 0px 10px 10px;
+  font-size: 18px;
+}
+
+.nickname-agreement-box{
+  padding: 10px 25px 10px 25px;
+}
+
+.nickname-subtitle-box{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.nickname-agreement-content-box{
+  background-color: #f7f7f7;
+  padding: 15px 15px 10px 15px;
+  
+}
+
+.nickname-agreement-content-box p{
+  font-size: 15px;
+  margin: 0px 5px 0px 5px;
+}
+
+.nickname-input-box{
+  margin-top: 30px;
+}
+
+.userinfo-ps-box{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.userinfo-ps-box p{
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.updateUserinfo-button-box{
+  display: flex;
+  justify-content: center;
+}
+
+.updateUserinfo-button-box button{
+  width: 80%;
+  height: 40px;
+  background-color: #006633;
+  border: 0px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
 }
