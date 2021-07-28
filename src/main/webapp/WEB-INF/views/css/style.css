@@ -1,25 +1,17 @@
-/**
-* Template Name: Mentor - v4.3.0
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+
 }
 
 a {
-  color: rgb(20, 20, 20);
   text-decoration: none;
 }
 
 a:hover {
-  color: #86db9f;
+  color: #306e2a;
   text-decoration: none;
 }
 
@@ -90,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(44, 44, 44);
 }
 
+.upper-nav-item a{
+  color: rgb(44, 44, 44);
+}
+
 .lower{
   display: flex;
 }
@@ -124,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #5fcf80;
+.navbar a:hover, .navbar , .navbar .active:focus, .navbar li:hover > a {
+  color: #2d6825;
 }
 
 .navbar .dropdown ul {
@@ -138,10 +134,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: rgb(44, 44, 44);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
+}
+
+.dropdown{
+  width: 100%;
 }
 
 .navbar .dropdown ul li {
@@ -153,14 +153,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
+  color: white;
 }
 
 .navbar .dropdown ul a i {
   font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #5fcf80;
+  color: white;
 }
 
 .navbar .dropdown:hover > ul {
@@ -182,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 3000px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -191,10 +189,56 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*=====================footer===================*/
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #848484;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  transition: all .3s ease-in 0s;
+}
+
+iframe {
+  border: 0;
+}
+
+/*=================================================================
+  Footer section
+==================================================================*/
 .top-footer {
   background-color: #222222;
   border-top: 1px solid #404040;
@@ -203,16 +247,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-menus{
   display: flex;
-
+  
 }
 
-.footer-menus ul{
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 20%;
+.footer-menu-ul{
+  
+  width: 250px;
 }
 
-.footer-menu-title a{
+.footer-menu-title{
   font-size: 20px;
   font-weight: 300;
 }
@@ -289,35 +332,165 @@ h1, h2, h3, h4, h5, h6 {
 /* =======================
 ========로그인===========*/
 
-.empty-space{
-  height: 300px;
-  width: 300px;
-  background-color: white;
+.body{
+  background-image: url("../images/login_bg.jpg");
 }
 
-.login-form{
+.outer-login-box{
+  background-color: white;
+  width: 550px;
   display: block;
+  
   text-align: center;
-  border: solid rgb(44, 44, 44) 2px;
+  border-radius: 2px;
+  border: 0px;
 }
+
+.title h2 {
+  color: rgb(255, 255, 255);
+  margin-top: 10%;
+}
+
+
+
+.welcom-box{
+  color: rgb(103, 185, 103);
+  padding-top: 20px;
+}
+
+.greeting-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(58, 143, 58);
+  font-size: 20px;
+  font-weight: 800;
+  
+}
+
+.welcome-starbucks-box{
+  padding-top: 20px;
+  color: #a8a8a8;
+}
+
+.welcom-starbucks{
+  color: #a8a8a8;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+
 
 .login-title{
   display: block;
 }
+
 .kakaologin-button{
   display: flex;
   justify-content: center;
 }
 
-.login-announce a{
-  color: rgb(9, 42, 9);
+.login-warn {
+  text-align: left;
+  color: #006633;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .login-box{
-  border: solid gray 3px;
+  display: block;
+}
+
+.manager-login-form{
+  display: flex;
+}
+
+.login-form{
+  display: block;
+  text-align: center;
+  border: 0px;
+  height: 330px;
+  width: 550px;
+}
+
+.kakaologin-button img{
+  height: 50px;
+  width: 200px;
+}
+
+.managerlogin-button-box{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .managerlogin-button{
-  border: solid #1b1b1b 4px;
-  background-color: white;
+  background-color: #006633;
+  height: 35px;
+  width: 100px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+}
+
+.form-box{
+  padding: 1px 30px 20px 30px;
+}
+
+/* ========manager login
+===========================*/
+.page-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.id-pw-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 25px;
+}
+
+.manager-login{
+  height: 40px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.managerloginfunc-button-box{
+  display: flex;
+  justify-content: center;
+}
+
+.manager-login-form{
+  display: block;
+  text-align: center;
+  border: 0px;
+  height: 250px;
+  width: 550px;
+}
+
+/* =============userinfoUpdateForm
+=============================================*/
+
+.userinfo-title-box{
+  display: block;
+  justify-content: center;
+  margin-top: 30px;
+}
+.userinfo-title{
+  color: black;
+  text-align: center;
 }

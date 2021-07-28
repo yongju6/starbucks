@@ -53,16 +53,15 @@ iframe {
 
 .footer-menus{
   display: flex;
-
+  
 }
 
-.footer-menus ul{
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 20%;
+.footer-menu-ul{
+  
+  width: 250px;
 }
 
-.footer-menu-title a{
+.footer-menu-title{
   font-size: 20px;
   font-weight: 300;
 }
@@ -211,8 +210,11 @@ iframe {
 }
 
 .login-box{
+  display: block;
+}
+
+.manager-login-form{
   display: flex;
-  
 }
 
 .login-form{
@@ -247,16 +249,24 @@ iframe {
 }
 
 .form-box{
-  padding: 0px 30px 20px 30px;
+  padding: 1px 30px 20px 30px;
 }
 
 /* ========manager login
 ===========================*/
+.page-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .id-pw-box{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 5%;
+  margin-left: 25px;
 }
 
 .manager-login{
@@ -270,5 +280,22 @@ iframe {
   justify-content: center;
 }
 
+.manager-login-form{
+  display: block;
+  text-align: center;
+  border: 0px;
+  height: 250px;
+  width: 550px;
+}
 
+/* =============userinfoUpdateForm
+=============================================*/
 
+.userinfo-title-box{
+  display: block;
+  justify-content: center;
+  margin-top: 30px;
+}
+.userinfo-title{
+  color: black;
+}
