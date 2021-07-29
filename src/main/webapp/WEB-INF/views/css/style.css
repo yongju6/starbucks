@@ -617,3 +617,113 @@ iframe {
   color: white;
   font-weight: 600;
 }
+
+/* ============uploadProduct
+=================================*/
+
+.productImageupload-box{
+  display: flex;
+
+}
+
+.productImage-box{
+  width: 130px;
+  height: 150px;
+  background-color: rgb(209, 209, 209);
+  margin: 30px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageupload-btn{
+  margin: 30px 20px 30px 0px;
+}
+
+.imageupload-btn button{
+  border: 0px;
+  background-color: #006633;
+  color: white;
+  font-weight: 400;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.imagefile-box input{
+  width: 400px;
+  border: solid gray 1px;
+  border-radius: 3px;
+}
+
+.category-select{
+  width: 150px;
+  border: solid rgb(207, 207, 207) 1.5px;
+  border-radius: 3px;
+}
+
+.product-title-box{
+  color: #222;
+  font-weight: 700;
+  margin: 30px 0px 10px 0px;
+}
+
+.product-name-input-box input{
+  width: 60%;
+  height: 40px;
+}
+
+.product-content-box{
+  width: 60%;
+  height: 40%;
+}
+
+.savebtn-box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.savebtn-box input{
+  background-color: #006633;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+  height: 40px;
+  width: 200px;
+  margin: 10px 0px 0px 0px;
+}
+
+.bottom-area{
+  margin-bottom: 30px;
+  
+  padding: 20px 20px 20px 80px;
+}
+
+/*============manageUser
+=============================*/
+.user-list-area-box{
+  width: 800px;
+}
+
+.userlist-tb{
+  border: solid gray 1px;
+  width: 100%;
+}
+
+.userlist-tb th{
+  background-color: #bebebe;
+  color: rgb(87, 87, 87);
+  text-align: center;
+  height: 30px;
+}
+
+.userlist-tb tr{
+  border: solid gray 1px;
+}
+
+.userlist-tb tr td{
+  color: rgb(87, 87, 87);
+  text-align: center;
+  height: 30px;
+}
