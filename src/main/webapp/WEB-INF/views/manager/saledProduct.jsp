@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html> <!--<![endif]-->
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Bingo One page parallax responsive HTML Template ">
-  
-  <meta name="author" content="Themefisher.com">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-  <title>saledProduct</title>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/src/main/resources/static/images/starbuckslogo.png" />
-  
-  <!-- CSS
-  ================================================== -->
-  <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="../plugins/themefisher-font/style.css">
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="../plugins/lightbox2/dist/css/lightbox.min.css">
-  <!-- animation css -->
-  <link rel="stylesheet" href="../plugins/animate/animate.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="../plugins/slick/slick.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="/src/main/resources/static/css/style.css">  
-
-</head>
-
-<body class="body-user" id="body">
+<%@include file="../layout/header.jsp"%>
 <div class="manage-User-container">
 <!-- LoginForm -->
 	<div class="manageUser-page-box">
@@ -45,8 +13,8 @@
 		<!-- /section title -->
         <hr />   
         <div class="manageUser-bottom-area">
-        
-        <div class="search-area-box">
+        <div class="top-box">
+        <div class="category-area-box">
             <div class="category-box">
                 <select class="category-select">
                     <option value="">--카테고리--</option>
@@ -57,13 +25,26 @@
             </div> <!-- end cateogry-box-->
         </div> <!-- end search-area-box-->
 
+        <div class="search-area-box">
+            <form>
+            <div class="search-input-box">
+                <input type="text" name="search" placeholder="검색어를 입력해주세요." />
+            </div>
+            <div class="search-btn-box">
+                <input type="button" name="search_btn" value="검색"/>
+            </div>
+            </form>
+        </div> <!-- end search-area-box-->
+
+    </div>
+
         <div class="user-list-area-box">
             <table class="userlist-tb">
                 <colgroup>
                     <col width="10%">
                     
                     <col width="20%">
-                    <col width="40%">
+                    <col width="30%">
                     <col width="20%">
                     <col width="*">
                 </colgroup>
@@ -100,24 +81,24 @@
                     </tr>
                     <tr>     
                         <td>04</td>     
-                        <td class="left"><a>최원희</a></td>     
-                        <td>choi@naver.com</td>     
-                        <td>2021-03-24</td> 
-                        <td>100,000</td>
+                        <td class="left"><a>에스프레소</a></td>     
+                        <td>2021-07-28</td>     
+                        <td>3,200</td> 
+                        <td>2</td>
                     </tr>
                     <tr>     
                         <td>05</td>     
-                        <td class="left"><a>박다정</a></td>     
-                        <td>park@google.com</td>     
-                        <td>2018-05-18</td> 
-                        <td>30,000</td>
+                        <td class="left"><a>디카페인 아메리카노</a></td>     
+                        <td>2021-07-28</td>     
+                        <td>4,500</td> 
+                        <td>2</td>
                     </tr>
-                    <tr>     
-                        <td>05</td>     
-                        <td class="left"><a>박다정</a></td>     
-                        <td>park@google.com</td>     
-                        <td>2018-05-18</td> 
-                        <td>30,000</td>
+                    <tr class="last-tr">     
+                        <td>고객번호</td>     
+                        <td>상품명</td>     
+                        <td>구매일</td>     
+                        <td>총 액 : 21,800</td> 
+                        <td>총 판매수량 : 9</td>
                     </tr>
             </table>
         </div>  <!-- end user-list-area-box-->
@@ -127,39 +108,11 @@
         <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
           </ul>
     </div>
 </div> <!-- end manageUser-page-box-->
 </div> <!-- end div -contatiner-->
-
-    <!-- 
-    Essential Scripts
-    =====================================-->
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
-
-    <!-- Form Validation -->
-    <script src="../plugins/form-validation/jquery.form.js"></script> 
-    <script src="../plugins/form-validation/jquery.validate.min.js"></script>
-    
-    <!-- Bootstrap4 -->
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Parallax -->
-    <script src="../plugins/parallax/jquery.parallax-1.1.3.js"></script>
-    <!-- lightbox -->
-    <script src="../plugins/lightbox2/dist/js/lightbox.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="../plugins/slick/slick.min.js"></script>
-    <!-- filter -->
-    <script src="../plugins/filterizr/jquery.filterizr.min.js"></script>
-    <!-- Smooth Scroll js -->
-    <script src="../plugins/smooth-scroll/smooth-scroll.min.js"></script>
-    
-    <!-- Custom js -->
-    <script src="/js/script.js"></script>
-
-  </body>
-  </html>
+<%@include file="../layout/footer.jsp"%>

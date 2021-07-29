@@ -717,7 +717,7 @@ iframe {
 }
 
 .user-list-area-box{
-  width: 800px;
+  width: 1500px;
 }
 
 .search-area-box form{
@@ -780,4 +780,24 @@ tbody tr:nth-child(2n+1) {
   background-color: #ffffff;
 }
 
-/*----------pagination----------*/
+
+
+
+
+
+
+/*=========saledProduct
+============================*/
+ 
+.top-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-box{
+  display: flex;
+}
+
+.last-tr{
+  font-weight: bold;
+}
