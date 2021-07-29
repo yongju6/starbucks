@@ -239,6 +239,7 @@ iframe {
 /*=================================================================
   Footer section
 ==================================================================*/
+
 .top-footer {
   background-color: #222222;
   border-top: 1px solid #404040;
@@ -332,9 +333,9 @@ iframe {
 /* =======================
 ========로그인===========*/
 
-.body{
+.page-box{
   background-image: url("../images/login_bg.jpg");
-  height: 800px;
+  height: 100%;
 }
 
 .outer-login-box{
@@ -424,6 +425,7 @@ iframe {
 .managerlogin-button-box{
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .managerlogin-button{
@@ -702,18 +704,56 @@ iframe {
 
 /*============manageUser
 =============================*/
+
+.manageUser-title-box{
+  display: flex;
+  justify-content: start;
+  margin: 30px 0px 0px 0px;
+}
+
+.manageUser-title a{
+  font-weight: 700;
+  font-size: 30px;
+}
+
 .user-list-area-box{
   width: 800px;
+}
+
+.search-area-box form{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-input-box{
+  margin: 0px 10px 30px 0px;
+}
+
+.search-input-box input{
+  border: solid gray 1px;
+  height: 30px;
+  width: 200px;
+}
+
+.search-btn-box input{
+  border: solid #222 1px;
+  background-color: #222;
+  border-radius: 4px;
+  height: 30px;
+  width: 70px;
+  color: white;
+  font-weight: bold;
 }
 
 .userlist-tb{
   border: solid gray 1px;
   width: 100%;
+  margin: 0px 0px 30px 0px;
 }
 
 .userlist-tb th{
-  background-color: #bebebe;
-  color: rgb(87, 87, 87);
+  background-color: #727272;
+  color: rgb(0, 0, 0);
   text-align: center;
   height: 30px;
 }
@@ -727,3 +767,17 @@ iframe {
   text-align: center;
   height: 30px;
 }
+
+.manage-User-container{
+  display: flex;
+  justify-content: center;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #dadada;
+}
+tbody tr:nth-child(2n+1) {
+  background-color: #ffffff;
+}
+
+/*----------pagination----------*/

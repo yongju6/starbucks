@@ -2,7 +2,7 @@
 
 <footer id="footer" class="bg-one">
   <div class="top-footer">
-    <div class="page-box">
+    <div class="footer-page-box">
       <div class="row">
 
         <div class="footer-menus">
@@ -80,7 +80,7 @@
   </div>
   </div>
 </footer> <!-- end footer -->
-
+  </body>
     <!-- 
     Essential Scripts
     =====================================-->
@@ -120,5 +120,5 @@
   <!-- Template Main JS File -->
   <script src="../plugins/js/main.js"></script>
 
-  </body>
+
   </html>

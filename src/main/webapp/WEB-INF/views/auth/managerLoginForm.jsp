@@ -1,41 +1,7 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html> <!--<![endif]-->
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Bingo One page parallax responsive HTML Template ">
-  
-  <meta name="author" content="Themefisher.com">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-  <title>LoginForm</title>
-
-
-  
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="../images/starbuckslogo.png" />
-  
-  <!-- CSS
-  ================================================== -->
-  <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="../plugins/themefisher-font/style.css">
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="../plugins/lightbox2/dist/css/lightbox.min.css">
-  <!-- animation css -->
-  <link rel="stylesheet" href="../plugins/animate/animate.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="../plugins/slick/slick.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="../css/style.css">  
-
-</head>
-
-<body id="body">
-<div class="body"> 
+<%@include file="../layout/header.jsp"%>
+<%-- <div class="body">  --%>
 
 <!-- LoginForm -->
 	<div class="page-box">
