@@ -37,7 +37,7 @@
 								</div> <!-- end login-warn-box -->
 								<hr />
 								<div class="managerlogin-button-box">
-									<a class="managerlogin-button" href="auth/managerLoginForm.jsp">관리자 로그인</a>						
+									<a class="managerlogin-button" href="/auth/manager/login">관리자 로그인</a>						
 								</div> <!-- end managerlogin-button-box -->						
 							</form>
 						</div> <!-- end form-box -->

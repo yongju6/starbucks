@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@include file="../layout/header.jsp"%>
-<%-- <div class="body">  --%>
 
 <!-- LoginForm -->
 	<div class="page-box">
@@ -29,7 +28,7 @@
 					
           <hr />
           <div class="managerloginfunc-button-box">
-					<button class="managerlogin-button"><a>로그인</a></button>						
+					<button class="managerlogin-button"><a href="/manager">로그인</a></button>						
           </div><!-- end managerloginfunc-button-box-->
 					
 				</form>
@@ -41,31 +40,4 @@
 	</div> <!-- end container -->
   </div>
 
-    <!-- 
-    Essential Scripts
-    =====================================-->
-    <!-- Main jQuery -->
-    <script src="../plugins/jquery/jquery.min.js"></script>
-
-    <!-- Form Validation -->
-    <script src="../plugins/form-validation/jquery.form.js"></script> 
-    <script src="../plugins/form-validation/jquery.validate.min.js"></script>
-    
-    <!-- Bootstrap4 -->
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Parallax -->
-    <script src="../plugins/parallax/jquery.parallax-1.1.3.js"></script>
-    <!-- lightbox -->
-    <script src="../plugins/lightbox2/dist/js/lightbox.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="../plugins/slick/slick.min.js"></script>
-    <!-- filter -->
-    <script src="../plugins/filterizr/jquery.filterizr.min.js"></script>
-    <!-- Smooth Scroll js -->
-    <script src="../plugins/smooth-scroll/smooth-scroll.min.js"></script>
-    
-    <!-- Custom js -->
-    <script src="../js/script.js"></script>
-
-  </body>
-  </html>
+<%@include file="../layout/footer.jsp"%>

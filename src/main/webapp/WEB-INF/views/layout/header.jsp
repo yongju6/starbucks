@@ -33,20 +33,20 @@
    <!-- CSS
   ================================================== -->
   <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <link rel="stylesheet" href="/plugins/themefisher-font/style.css">
   <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
   <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+  <link rel="stylesheet" href="/plugins/lightbox2/dist/css/lightbox.min.css">
   <!-- animation css -->
-  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <link rel="stylesheet" href="/plugins/animate/animate.css">
   <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="/css/style.css">  
 
   <!-- Template Main CSS File -->
-  <link href="../css/style.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 
 </head>
 

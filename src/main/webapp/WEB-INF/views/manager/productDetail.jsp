@@ -1,56 +1,6 @@
-<!-- <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> -->
-<!DOCTYPE html>
-<html lang="en">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Mentor Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Favicons -->
-  <link href="../images/starbuckslogo.png" rel="icon">
-  <link href="../images/starbuckslogo.png" rel="apple-touch-icon">
-
-  <!-- Vendor CSS Files -->
-  <link href="../plugins/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="../plugins/vendor/aos/aos.css" rel="stylesheet">
-  <link href="../plugins/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../plugins/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="../plugins/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../plugins/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../plugins/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-   <!-- CSS
-  ================================================== -->
-  <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
-  <!-- animation css -->
-  <link rel="stylesheet" href="plugins/animate/animate.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="/src/main/resources/static/css/style.css">  
-
-  <!-- Template Main CSS File -->
-  <link href="../css/style.css" rel="stylesheet">
-
-
-</head>
-
-<body>
-  <!-- ======= Header ======= -->
-
-  <!-- End Header -->
+<%@include file="../layout/header.jsp"%>
 
 <!-- container -->
   <div id="container">
@@ -91,9 +41,6 @@
             <h4>아이스크림 블렌딩 콜드 브루<br><span>Ice Cream Blending Cold Brew</span></h4>
             <p class="t1">콜드 브루와 바닐라빈이 콕콕 박힌 아이스크림이 블렌딩 되어 진하고 부드러운 콜드 브루 풍미를 느낄 수 있는 콜드 브루
             <br> * 아이스크림 블렌딩 콜드 브루는 BOGO쿠폰, 무료음료 쿠폰 등 일부 쿠폰 사용이 제한됩니다</p>
-            <div class="myDrink">
-              <a href="javascript:void(0)" role="button" title="나만의 음료 등록 옵션 열기">나만의 음료로 등록</a><!-- 접근성_20171123 role, title 추가 -->
-            </div>
           </div>
 
           <form method="post">
@@ -177,7 +124,7 @@
                 </div>
                 <div class="edit-btn-box">
                   <div class="edit-btn">
-                    <a href="#">수정</a>
+                    <a href="/manager/update_product">수정</a>
                   </div>
                   <div class="edit-btn">
                     <a href="#">삭제</a>
@@ -194,76 +141,9 @@
       </div>
       <!-- 제품 상세보기 end -->
     </div>
-    <!-- 제품 상세보기 하단 공통 -->
-    <div class="productView_footmenu">
-      <div class="productView_footmenu_inner">
-        <div class="productView_top">
-          <div class="productView_top_left">
-            <p class="tit">프로모션 새소식</p>
-            <ul class="promotionList">
-              <li>해당 상품과 관련된 진행 중인 프로모션이 없습니다.</li>
-            </ul>
-            <p class="more"><a href="#">
-              <img src="/img/drink-detail/news_more.png" alt="프로모션 새소식 더보기"></a></p>
-          </div>
-          <div class="productView_top_right">
-            <dl>
-              <dt>
-                <p class="sirenOrder"><a href="/util/app_tip.do"><img src="//image.istarbucks.co.kr/common/img/menu/sirenOrder_img_171109.png" alt="사이렌오더란?"></a><!-- 접근성_20171123 alt 추가 --></p>
-              </dt>
-              <dd>
-                <p class="tit">사이렌오더란?</p>
-                <p class="txt">매장에서 줄을 서지 않고 주문하는 쉽고 간편한 O2O (Online to Offline) 서비스로서 앱을 통해 스타벅스 음료, 푸드 및 원두의 결제 및 주문을 완료하면 매장에서 즉시 메뉴를 받을 수 있는 스타벅스만의 신개념 서비스 입니다.</p>
-              </dd>
-            </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 제품 상세보기 하단 공통 end-->
+    
 
   </div>
 <!-- container  end-->
 
-<!-- 
-    Essential Scripts
-    =====================================-->
-    <!-- Main jQuery -->
-    <script src="plugins/jquery/jquery.min.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
-    <script  src="plugins/google-map/gmap.js"></script>
-
-    <!-- Form Validation -->
-    <script src="plugins/form-validation/jquery.form.js"></script> 
-    <script src="plugins/form-validation/jquery.validate.min.js"></script>
-    
-    <!-- Bootstrap4 -->
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Parallax -->
-    <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script>
-    <!-- lightbox -->
-    <script src="plugins/lightbox2/dist/js/lightbox.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="plugins/slick/slick.min.js"></script>
-    <!-- filter -->
-    <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
-    <!-- Smooth Scroll js -->
-    <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
-    
-    <!-- Custom js -->
-    <script src="js/script.js"></script>
-
-    <!-- Vendor JS Files -->
-  <script src="../plugins/vendor/aos/aos.js"></script>
-  <script src="../plugins/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../plugins/vendor/php-email-form/validate.js"></script>
-  <script src="../plugins/vendor/purecounter/purecounter.js"></script>
-  <script src="../plugins/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="../plugins/js/main.js"></script>
-
-
-</body>
-</html>
+<%@include file="../layout/footer.jsp"%>

@@ -240,15 +240,22 @@ iframe {
   Footer section
 ==================================================================*/
 
+
 .top-footer {
   background-color: #222222;
   border-top: 1px solid #404040;
   padding: 100px 0 80px;
 }
 
+.footer-page-box{
+  display: flex;
+  justify-content: center;
+}
+
 .footer-menus{
   display: flex;
-  
+  justify-content: center;
+ 
 }
 
 .footer-menu-ul{
@@ -349,7 +356,7 @@ iframe {
 }
 
 .title h2 {
-  color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
   margin-top: 10%;
 }
 
@@ -438,6 +445,13 @@ iframe {
   border-radius: 3px;
   font-weight: 700;
   font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manager-login-button a{
   color: white;
 }
 
@@ -1052,6 +1066,7 @@ div.product_view_wrap2 {
 .edit-btn-box{
   display: flex;
   justify-content: flex-end;
+  
 }
 
 .edit-btn{
@@ -1067,11 +1082,19 @@ div.product_view_wrap2 {
   border: 2px solid #006633;
   border-radius: 3px;
   text-decoration: none;
+  background-color: #006633;
+  justify-content: center;
+}
+
+.edit-btn a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
 }
 
 .edit-btn a:hover {
-  text-decoration: underline;
-  background-color: #006633;
+  text-decoration: none;
+  background-color: #034b27;
   color: #fff;
 } 
 
