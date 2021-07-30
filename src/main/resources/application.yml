@@ -5,6 +5,10 @@ server:
       charset: UTF-8
 
 spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
   output:
     ansi:
       enabled: always
